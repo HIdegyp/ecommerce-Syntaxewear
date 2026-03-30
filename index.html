@@ -1,36 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ecommerce-syntaxewear</title>
+    <title>Syntaxewear - Tênis e Sneakers Online</title>
     <!-- Link para os arquivos CSS -->
-   
+
     <link rel="stylesheet" href="./CSS/reset.css">
-     <link rel="stylesheet" href="./CSS/variables.css">
+    <link rel="stylesheet" href="./CSS/variables.css">
     <link rel="stylesheet" href="./CSS/base.css">
+    <link rel="stylesheet" href="./CSS/header.css">
     <link rel="stylesheet" href="./CSS/layout.css">
 </head>
+
 <body>
     <header class="header">
-        <div class="header__logo"></div>
-        
+        <a href="/" title="Syntaxewear - Tênis e Sneakers Online">
+            <img src="./images/icons/Logo.svg" alt="Syntaxewear - Tênis e Sneakers Online">
+        </a>
+
+
+        <nav class="nav-center" aria-label="Categorias  Principais">
+            <ul>
+                <li><a href="#">Maculino</a></li>
+                <li><a href="#">Feminino</a></li>
+                <li><a href="#">Outlet</a></li>
+            </ul>
+        </nav>
+
+        <nav class="nav-right" aria-label="Acesso e suporte">
+            <ul>
+                <li><a href="#">Nossas lojas
+
+                    </a>
+                </li>
+                <li><a href="#">Sobre</a></li>
+                <li>
+                    <a href="#" aria-label="Minha conta">
+                        <img src="./images/icons/user.svg" alt="Ícone da minha conta">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Ajuda" class="nav-actions__icon-link">
+                        <img src="./images/icons/help.svg" alt="Ícone de ajuda">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Sacola" class="nav-actions__icon-link">
+                        <img src="./images/icons/bag.svg" alt="Ícone da sacola">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
     </header>
 
     <main class="main-content">
-        <h1>titulo</h1>
+        
         <section class="hero"></section>
 
         <section class="shoe-categories"></section>
 
         <section class="featured-products">
-           
+
         </section>
     </main>
 
     <footer class="footer">
         <div class="footer__contact"></div>
-      
+
     </footer>
 </body>
+
 </html>
