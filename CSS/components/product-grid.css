@@ -9,30 +9,30 @@
 
 .highlight{
     grid-area: highlight;
-    background-image: url("../images/modelo-grid.jpg");
+    background-image: url("../../images/modelo-grid.jpg");
 }
 
 .sneaker-purple{
     grid-area: sneaker-purple;
-    background-image: url("../images/tênis\ roxo\ e\ verde.jpg");
+    background-image: url("../../images/tênis\ roxo\ e\ verde.jpg");
 }
 
 .modeL{
     grid-area: modeL;
-    background-image: url("../images/modelo-feminino.jpg");
+    background-image: url("../../images/modelo-feminino.jpg");
 }
 .sneaker-color{
     grid-area: sneaker-color;
-    background-image: url("../images/futurista-grid.jpg");
+    background-image: url("../../images/futurista-grid.jpg");
 
 }
 .sneaker-white{
     grid-area: sneaker-white;
-    background-image: url("../images/casual-grid.jpg");
+    background-image: url("../../images/casual-grid.jpg");
 }
 .sneaker-silver{
     grid-area: sneaker-silver;
-    background-image: url("../images/moderno-grid.jpg");
+    background-image: url("../../images/moderno-grid.jpg");
 }
 .grid-section{
     display: grid;
