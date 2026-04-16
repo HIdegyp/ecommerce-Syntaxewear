@@ -62,11 +62,13 @@ a{
 }
 ul,ol{
     list-style: none;
+    padding: 0;
+    margin: 0
+}
+li{
+    list-style: none;
 }
 
-:target {
-    scroll-margin-block: 5rem;
-}
 
 #root,
 #__next {

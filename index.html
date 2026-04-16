@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="./CSS/variables.css">
     <link rel="stylesheet" href="./CSS/base.css">
     <link rel="stylesheet" href="./CSS/components/header.css">
-    <link rel="stylesheet" href="./CSS/layout.css">
     <link rel="stylesheet" href="./CSS/components/hero.css">
     <link rel="stylesheet" href="./CSS/components/products-category.css">
     <link rel="stylesheet" href="./CSS/components/product-grid.css">
@@ -78,15 +77,14 @@
             </div>
 
         </section>
-
         <section class="categories-section">
             <div class="categories-card casual ">
-            <a href="#" class="categories-link">
-                <span class="overlay"></span>
-                <span class="categories-name btn btn-outline">Casual</span>
-            </a>
+                <a href="#" class="categories-link">
+                    <span class="overlay"></span>
+                    <span class="categories-name btn btn-outline">Casual</span>
+                </a>
             </div>
-            <div class="categories-card esporte " >
+            <div class="categories-card esporte ">
                 <a href="#" class="categories-link">
                     <span class="overlay"></span>
                     <span class="categories-name btn btn-outline">Esporte</span>
@@ -108,26 +106,95 @@
         </section>
 
         <section class="grid-section">
-<div class="card highlight">
-   <div class="top1-content">
-    <h3 class="card-title">Krypton One</h3>
-    <p class="card-description">Estilo urbano com atitude</p>
-  <div class="cta-group">
-    <a href="#" class="btn btn-outline">Masculino</a>
-    <a href="#" class="btn btn-outline">Feminino</a>
-  </div>
-   </div>
-</div>
-<div class="card sneaker-purple"></div>
-<div class="card modeL"></div>
-<div class="card sneaker-color"></div>
-<div class="card sneaker-white"></div>
-<div class="card sneaker-silver"></div>
+            <div class="card highlight">
+                <div class="top1-content">
+                    <h3 class="card-title">Krypton One</h3>
+                    <p class="card-description">Estilo urbano com atitude</p>
+                    <div class="cta-group">
+                        <a href="#" class="btn btn-outline">Masculino</a>
+                        <a href="#" class="btn btn-outline">Feminino</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card sneaker-purple"></div>
+            <div class="card modeL"></div>
+            <div class="card sneaker-color"></div>
+            <div class="card sneaker-white"></div>
+            <div class="card sneaker-silver"></div>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer__contact"></div>
+    <footer class="site-footer ">
+        <div class="footer-content">
+            <div class="footer-right">
+                <form class="newsletter-form" action="#" method="email">
+                    <label for="newsletter-email">Inscreva-se em nosso e-mail</label>
+                    <input type="email" id="newsletter-email" name="newsletter-email" placeholder="email@email.com">
+                </form>
+
+                <div class="footer-social">
+                    <span>Redes sociais</span>
+                    <ul>
+                        <li><a href="#" aria-label="Instagram"><img src="./images/icons/instagram.svg"
+                                    alt="Instagram"></a></li>
+                        <li><a href="#" aria-label="WhatsApp"><img src="./images/icons/whatsapp.svg" alt="WhatsApp"></a>
+                        </li>
+                        <li><a href="#" aria-label="TikTok"><img src="./images/icons/tiktok.svg" alt="TikTok"></a></li>
+                        <li><a href="#" aria-label="Facebook"><img src="./images/icons/facebook.svg" alt="Facebook"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <nav class="footer-nav">
+                <ul>
+                    <li class="footer-item">
+                        <strong>Masculino</strong>
+                        <ul>
+                            <li><a href="#">Casual</a></li>
+                            <li><a href="#">Esporte</a></li>
+                            <li><a href="#">Moderno</a></li>
+                            <li><a href="#">Futurista</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-item" >
+                        <strong>Feminino</strong>
+                        <ul>
+                            <li><a href="#">Casual</a></li>
+                            <li><a href="#">Esporte</a></li>
+                            <li><a href="#">Moderno</a></li>
+                            <li><a href="#">Futurista</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-item">
+                        <strong>Outlet</strong>
+                        <ul>
+                            <li><a href="#">Masculino</a></li>
+                            <li><a href="#">Feminino</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-item">
+                        <strong>Nossas lojas</strong>
+                        <ul>
+                            <li><a href="#">Loja física</a></li>
+                            <li><a href="#">Loja online</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-item">
+                        <strong>Sobre</strong>
+                        <ul>
+                            <li><a href="#">Quem somos</a></li>
+                            <li><a href="#">Missão</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+        <div class="footer__copy">
+            <p>Copyright. All Rights Reserved</p>
+        </div>
 
     </footer>
 </body>
